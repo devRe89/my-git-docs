@@ -1,33 +1,33 @@
-### inicializar git
+### Inicializar git
 git init
 
-### git status
+### Git status
 git status
 
-### añadir nuevo origen remoto
+### Añadir nuevo origen remoto
 git remote add <url_repository>
 
-### crear una nueva rama
+### Crear una nueva rama
 git checkout -b <branch_name>
 
-### cambiar rama
+### Cambiar rama
 git checkout <branch_name>
 
-### actualizar rama remota
+### Actualizar rama remota
 git pull origin <branch_name>
 NOTA: estar ubicado en la rama local en la que se quiera actualizar
 
-### añadir todos los cambios realizador 
+### Añadir todos los cambios realizador 
 git add .
 
-### añadir un commit
+### Añadir un commit
 git commit -m <message>
 
-### subir cambios realizador a repositorio origen
+### Subir cambios realizador a repositorio origen
 git push origin <branch_name>
 
-### para saber en que rama estoy trabajando
+### Para saber en que rama estoy trabajando
 git branch 
 
-### para saber las url de origin actual
+### Para saber las url de origin actual
 git remote -v
